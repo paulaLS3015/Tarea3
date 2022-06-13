@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -----------------HEADER----------------- */
+header {
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    opacity: 1;
+}
+
+header h1 {
+    text-align: center;
+    padding: 35px;
+    font-size: 4em;
+    background-color: white;
+}
+
+header p {
+    text-align: center;
+    background-color: white;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* -----------------CUERPO----------------- */
+p {
+    padding: 1%;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+table { 
+    border-spacing: 5px;
+    background-color: rgba(255, 255, 255, 0.462);
+    border-radius: 2%;
+    text-align: center;
+    padding: 1%;
+}
+
+td { 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cuerpo .resultados, .cuerpo .candidatos{
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    opacity: 1;
+    margin: 2%;
+}
+
+.resultados table {
+    
+    width: 65%;
+}
+
+.resultados table img {
+    height: 100px;
+}
+
+.candidatos table {
+    width: 25%;
+}
+
+.candidato:hover{
+    background-color: lightgray;
+    opacity: 95%;
+    border-radius: 10%;
+}
+
+.candidato img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+ul{
+    padding-left: 3%;
+}
+/* -----------------FONDO----------------- */
+.fondo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.42;
+}
+
+/* -----------------FOOTER----------------- */
+footer {
+    margin-top: 7%;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    text-align: center;
+    padding: 35px;
+    font-size: 1em;
+    background-color: white;
+}
